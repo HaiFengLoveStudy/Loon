@@ -1,12 +1,12 @@
 #!name=滴答清单VIP
-#!desc=解锁滴答清单Pro会员功能
+#!desc=解锁滴答清单Pro会员功能 (去混淆版)
 #!author=HaiFengLoveStudy
 #!icon=https://raw.githubusercontent.com/loon-project/loon-gallery/master/icon/ticktick.png
 #!homepage=https://github.com/HaiFengLoveStudy/Loon
 
 [Script]
-# 注意：这里已经更新为你 ticktick_VIP 文件夹下的 JS 路径
-http-response ^https:\/\/dida365\.com\/api\/v2\/user\/status script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ddqd.js, requires-body=true, tag=滴答清单VIP
+# 脚本路径指向你的 ticktick_VIP 文件夹
+http-response ^https:\/\/dida365\.com\/api\/v2\/user\/status script-path=https://raw.githubusercontent.com/HaiFengLoveStudy/Loon/main/ticktick_VIP/ticktick.js, requires-body=true, tag=滴答清单VIP
 
 [MITM]
 hostname = dida365.com
